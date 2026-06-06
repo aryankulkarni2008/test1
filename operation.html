@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>operation</h1>
+    <script>
+        var num1=Number(prompt("enter first number : "));
+        var num2=Number(prompt("enter second number :"));
+        var ch=Number(prompt("----operations----\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division"));
+
+        switch(ch){
+            case 1:{
+                 document.write("Addition is :" + (num1+num2) )
+            }break;
+            case 2: {
+                document.write("Subtraction is" + (num1-num2))
+            }break;
+            case 3: {
+                document.write("Multiplication is :"+ (num1*num2))
+            }break;
+            case 4:{ document.write("Division is :"+ (num1/num2))
+        }break;
+        }
+    </script>
+    </body>
+</html>
