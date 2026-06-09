@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Classify the Age</h1>
+        <script>
+            var age=Number(prompt("Enter your Age"));
+                if(age<1 && age>10){
+                    document.write("child");
+                }
+                else if(age<18 && age>10){
+                    document.write("Teeneger");
+                }
+                else if(age>18 && age<100){
+                    document.write("Adult");
+           }
+           else{
+            alert("age is never be negative");
+           }
+        </script>
+</body>
+</html>

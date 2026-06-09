@@ -1,0 +1,25 @@
+var user_id="Aryan"
+var user_pass="1234";
+
+var attempts=3
+
+while(attempts>0){
+    var userid = prompt("enter username:");
+    var pass = prompt("enter password:")
+
+    if(userid=== user_id && password=== user_pass){
+        console.log("Login successfully!");
+        break;
+
+    }
+    else{
+        attempts--;
+        console.log("invalid userid");
+        if(attempts>0){
+            console.log("Attempts left:"+attempts);
+        }
+        else{
+            console.log("Account locked")
+        }
+    }
+}
